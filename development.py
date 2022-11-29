@@ -15,7 +15,7 @@ November 2022
 import gym
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as no
+import numpy as np
  
 env=gym.make("FrozenLake-v1", render_mode="human")
 env.reset()
